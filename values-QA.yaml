@@ -1,0 +1,8 @@
+deployment:
+  imageURL: dd070/catalogue
+  imageVersion: IMAGE_VERSION
+hpa:
+  maxReplicas: 10
+  utilisation: 75
+configMap:
+  MONGO_URL: mongodb://mongodb:27017/catalogue  
