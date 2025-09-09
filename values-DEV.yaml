@@ -1,7 +1,7 @@
 deployment:
   imageURL: dd070/shipping
   #imageVersion: IMAGE_VERSION
-  imageVersion: 1.0
+  imageVersion: "1.0"
 hpa:
   maxReplicas: 10
   utilisation: 75
